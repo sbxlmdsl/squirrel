@@ -1,6 +1,8 @@
 name: release ci
 on:
   push:
+    branches:
+      - 'sbxlm'
     tags:
       - '*'
 jobs:
