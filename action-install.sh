@@ -6,10 +6,10 @@ rime_version=9.5.0
 rime_git_hash=4291c81
 
 rime_archive="rime-${rime_git_hash}-macOS.tar.bz2"
-rime_download_url="https://github.com/rime/librime/releases/download/${rime_version}/${rime_archive}"
+rime_download_url="https://github.com/sbxlmdsl/librime/releases/download/${rime_version}/${rime_archive}"
 
 rime_deps_archive="rime-deps-${rime_git_hash}-macOS.tar.bz2"
-rime_deps_download_url="https://github.com/rime/librime/releases/download/${rime_version}/${rime_deps_archive}"
+rime_deps_download_url="https://github.com/sbxlmdsl/librime/releases/download/${rime_version}/${rime_deps_archive}"
 
 mkdir -p download && (
     cd download
