@@ -32,3 +32,4 @@ jobs:
           body: |
             ${{ steps.release_log.outputs.changelog }}
           draft: true
+          token: ${{ secrets.GITHUB_TOKEN }}
