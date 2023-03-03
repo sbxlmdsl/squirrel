@@ -585,15 +585,15 @@ const int N_KEY_ROLL_OVER = 50;
       }
     }
     NSArray* labels;
-    if (ctx.menu.select_keys) {
-      labels = @[@(ctx.menu.select_keys)];
-    } else if (ctx.select_labels) {
+	if (ctx.select_labels) {
       NSMutableArray *selectLabels = [NSMutableArray array];
       for (i = 0; i < ctx.menu.page_size; ++i) {
         char* label_str = ctx.select_labels[i];
         [selectLabels addObject:@(label_str)];
       }
       labels = selectLabels;
+    } else if (ctx.menu.select_keys) {
+      labels = @[@(ctx.menu.select_keys)];
     } else {
       labels = @[];
     }
