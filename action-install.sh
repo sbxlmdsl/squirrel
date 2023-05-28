@@ -2,8 +2,8 @@
 
 set -e
 
-rime_version=9.5.8
-rime_git_hash=1b56ba8
+rime_version=9.5.9
+rime_git_hash=64a976f
 
 rime_archive="rime-${rime_git_hash}-macOS.tar.bz2"
 rime_download_url="https://github.com/sbxlmdsl/librime/releases/download/${rime_version}/${rime_archive}"
